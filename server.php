@@ -10,18 +10,13 @@
 
  $name  = getStr('name');
  $phone = getStr('phone');
- $email = getStr('email');
- $comment = getStr('comment');
- $present = getStr('present');
- $color = getStr('color');
 
- $site = "Банный клуб Максимус";
+ $site = "BABOR beauty spa";
  $subject = "Заявка с сайта " . $site;
  
  $mes = "Имя: ".$name." \nТелефон: ". $phone;
  
  $additional = "Content-type:text/plain;charset = UTF-8\r\nFrom: " . $site;
- if($email) $additional .= "\r\nReply-To: " . $email;
  $additional .= "\r\nX-Mailer: PHP/" . phpversion();
  $send = mail($address, $subject, $mes, $additional);
  
