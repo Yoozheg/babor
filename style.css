@@ -72,8 +72,14 @@ header{}
 .how5{background:url(img/k2.jpg)no-repeat center;margin-right:170px}
 .how6{background:url(img/k1.jpg)no-repeat center}
 
+#map{height:440px;background:url(img/map.jpg)no-repeat top center}
 
-footer{}
+
+footer{background:url(img/fon5.jpg)top center no-repeat;color:white;font:30px 'Europe_Ext';padding:45px 0;}
+footer div.left{float:none;}
+footer div.right{text-align:right;}
+footer p.button{font-size:18px;text-decoration:underline;color:#00d2ff;}
+
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:20;}
 #splash section{background-color:#f6662f;color:white;position:absolute;left:0;right:0;top:25%}
