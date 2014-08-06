@@ -18,6 +18,14 @@ main{margin:0 auto;width:960px;position:relative}
 
 header{}
 
+#telka{background:url(img/fon3.jpg) center top no-repeat;position:relative;height:782px;}
+#telka div{position:absolute;top:145px;left:495px;}
+#telka table{border-spacing:0 37px;margin-bottom:70px;}
+#telka td{color:white;font:normal 15px "Europe_Ext";display:inline-block;vertical-align:top;padding-left:20px}
+#telka td.number{color:#00dcff;font:bold 21px "Trebuchet MS";padding:0;}
+#telka a{display:block;position:relative;width:240px;height:35px;padding:15px 0 0 30px;color:black;font:17px "Kelson Sans RU Bold";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;text-decoration:none;}
+#telka a:active{box-shadow:none;margin-top:5px;}
+
 #chickleftfirst{position:relative;height:389px;background:white}
 #chickleftfirst img{margin-top:70px}
 #chickleftfirst div h2{font:bold 25px "EuropeExt Bold";color:#053763;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
