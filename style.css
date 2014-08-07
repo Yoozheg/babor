@@ -1,8 +1,6 @@
 @charset "utf-8";
 *{padding:0;margin:0}
 @font-face{font-family:"Kelson Sans RU Bold"; src:url(fonts/kelson_sans_bold_ru.ttf)}
-@font-face{font-family:"Europe_Ext"; src:url(fonts/eur_norm.ttf)}
-@font-face{font-family:"EuropeExt Bold"; src:url(fonts/eur_bold.ttf)}
 body{color:#000;background:#fff;font:16px "Trebuchet MS",Calibri,sans-serif;min-width:1001px}
 section,nav,footer,header{min-width:1001px}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
@@ -20,18 +18,20 @@ main{margin:0 auto;width:960px;position:relative}
 .underline{text-decoration:underline}
 .black{background:#2d2d2d;padding:3px 4px;color:white}
 header{background:url(img/fon1.jpg) center top no-repeat;height:889px}
-#top{background:url(img/logo.png) center left no-repeat;height:80px;text-align:right;font-family:"Europe_Ext";color:white;font-size:18px;font-weight:normal;padding-top:40px}
-header h1{text-transform:uppercase;font-family:"EuropeExt Bold";font-size:40px;margin-top:30px}
-header main > p{text-align:center;margin-top:165px;font-family:"Europe_Ext";font-size:19px}
-header ul{display:block;list-style:none;background:url(img/header.png) center top no-repeat;color:white;padding-top:170px;width:800px;margin:80px auto 0;font-family:"Europe_Ext";font-size:15px}
+#top{background:url(img/logo.png) center left no-repeat;height:80px;text-align:right;font-family:Tahoma;color:white;font-size:18px;font-weight:normal;padding-top:40px}
+header h1{text-transform:uppercase;font:bold 40px Tahoma;margin-top:30px}
+header main > p{text-align:center;margin-top:165px;font-family:Tahoma;font-size:19px}
+header ul{display:block;list-style:none;background:url(img/header.png) center top no-repeat;color:white;padding-top:170px;width:800px;margin:80px auto 0;font-family:Tahoma;font-size:15px}
 header ul li{display:block;float:left;text-align:center;margin:0}
 header ul li:nth-child(1){width:36%}
 header ul li:nth-child(2){width:28%}
 header ul li:nth-child(3){width:36%}
+
 #second{background:url(img/fon2.jpg) center top no-repeat;height:749px}
-#second h2{font:bold 45px "EuropeExt Bold";text-transform:uppercase;margin:100px 0 0 80px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px}
+#second main{text-align:center;}
+#second h2{font:bold 45px Tahoma;text-transform:uppercase;margin:100px 0 0 0;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px}
 #second ul{display:block;margin-top:100px}
-#second ul li{display:block;float:left;width:25%;background:center top no-repeat;padding:90px 0 90px;text-align:center;color:white;font-family:"Europe_Ext";font-size:16px}
+#second ul li{display:block;float:left;width:25%;background:center top no-repeat;padding:90px 0 0 0;text-align:center;color:white;font-family:Tahoma;font-size:16px}
 #second ul li:nth-child(1){background-image:url(img/p1.png)}
 #second ul li:nth-child(2){background-image:url(img/p2.png)}
 #second ul li:nth-child(3){background-image:url(img/p3.png)}
@@ -44,7 +44,7 @@ header ul li:nth-child(3){width:36%}
 #telka{background:url(img/fon3.jpg) center top no-repeat;position:relative;height:782px;}
 #telka div{position:absolute;top:145px;left:495px;}
 #telka table{border-spacing:0 37px;margin-bottom:70px;}
-#telka td{color:white;font:normal 15px "Europe_Ext";display:inline-block;vertical-align:top;padding-left:20px}
+#telka td{color:white;font:normal 15px Tahoma;display:inline-block;vertical-align:top;padding-left:20px}
 #telka td.number{color:#00dcff;font:bold 21px "Trebuchet MS";padding:0;}
 #telka a,#chickleftfirst div a,#chickleftsecond div a, #chickrightfirst div a,#chickrightsecond div a{display:block;position:relative;width:240px;height:35px;padding:15px 0 0 30px;color:black;font:17px "Kelson Sans RU Bold";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;text-decoration:none;}
 #telka a:active{box-shadow:none;margin-top:5px;}
@@ -53,41 +53,42 @@ header ul li:nth-child(3){width:36%}
 
 #chickleftfirst{position:relative;height:389px;background:white}
 #chickleftfirst img{margin-top:70px}
-#chickleftfirst div h2{font:bold 25px "EuropeExt Bold";color:#053763;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
-#chickleftfirst div p{font:normal 17px "Europe_Ext";color:#053763;margin-left:30px}
+#chickleftfirst div h2{font:bold 25px Tahoma;color:#053763;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
+#chickleftfirst div p{font:normal 17px Tahoma;color:#053763;margin-left:30px}
 
 #chickleftsecond{position:relative;height:389px;background:white}
 #chickleftsecond img{margin-top:70px}
-#chickleftsecond div h2{font:bold 25px "EuropeExt Bold";color:#053763;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
-#chickleftsecond div p{font:normal 17px "Europe_Ext";color:#053763;margin-left:30px}
+#chickleftsecond div h2{font:bold 25px Tahoma;color:#053763;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
+#chickleftsecond div p{font:normal 17px Tahoma;color:#053763;margin-left:30px}
 
 #chickrightfirst{position:relative;height:388px;background:url(img/fon4.jpg)no-repeat top center}
 #chickrightfirst img{margin-top:70px}
-#chickrightfirst div h2{font:bold 25px "EuropeExt Bold";color:white;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
-#chickrightfirst div p{font:normal 17px "Europe_Ext";color:white;margin-left:30px}
+#chickrightfirst div h2{font:bold 25px Tahoma;color:white;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
+#chickrightfirst div p{font:normal 17px Tahoma;color:white;margin-left:30px}
 
 #chickrightsecond{position:relative;height:388px;background:url(img/fon4.jpg)no-repeat top center}
 #chickrightsecond img{margin-top:70px}
-#chickrightsecond div h2{font:bold 25px "EuropeExt Bold";color:white;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
-#chickrightsecond div p{font:normal 17px "Europe_Ext";color:white;margin-left:30px}
+#chickrightsecond div h2{font:bold 25px Tahoma;color:white;background:url(img/stick.png)no-repeat;padding-left:20px;margin:50px 0 60px 10px}
+#chickrightsecond div p{font:normal 17px Tahoma;color:white;margin-left:30px}
 
 #r{}
 .request{background-color:#f6662f;color:white;padding:60px 0;}
 .request main{text-align:center;}
-.request h2{font:45px 'EuropeExt Bold';text-transform:uppercase;}
-.request p{font:25px 'Europe_Ext';text-transform:uppercase;margin:30px 0;}
+.request h2{font:bold 45px Tahoma;text-transform:uppercase;}
+.request p{font:bold 25px Tahoma;text-transform:uppercase;margin:30px 0;}
 .request form{}
 .request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px "Trebuchet MS";outline:none;border:none;margin:0 15px 25px 15px}
 .request button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:20px "Kelson Sans RU Bold";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
 .request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
 
-#how{background:white);}
+#how{background:white;}
+#how main{text-align:center;}
 #how img{position:absolute;left:230px;top:245px;}
 #how img.horisontal{position:absolute;left:180px;top:245px;}
 #how img.horisontal2{position:absolute;left:180px;top:525px;}
 #how img.vertical{position:absolute;left:846px;top:365px;}
-#how h2{font:bold 40px "EuropeExt Bold";text-transform:uppercase;margin:50px 0 0 180px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
-#how ol{list-style:none;font:17px "Europe_Ext";color:#492403;text-align:center;padding-bottom:45px;}
+#how h2{font:bold 40px Tahoma;text-transform:uppercase;margin-top:50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#how ol{list-style:none;font:17px Tahoma;color:#492403;text-align:center;padding-bottom:45px;}
 #how ol li{width:190px;position:relative;display:inline-block;padding-top:225px;vertical-align:center;margin-left:10px}
 .how1{background:url(img/k6.jpg)no-repeat center;margin-right:170px}
 .how2{background:url(img/k5.jpg)no-repeat center;margin-right:170px}
@@ -99,7 +100,7 @@ header ul li:nth-child(3){width:36%}
 #map{height:440px;background:url(img/map.jpg)no-repeat top center}
 
 
-footer{background:url(img/fon5.jpg)top center no-repeat;color:white;font:30px 'Europe_Ext';padding:45px 0;}
+footer{background:url(img/fon5.jpg)top center no-repeat;color:white;font:30px Tahoma;padding:45px 0;}
 footer div.left{float:none;}
 footer div.right{text-align:right;}
 footer p.button{font-size:18px;text-decoration:underline;color:#00d2ff;}
